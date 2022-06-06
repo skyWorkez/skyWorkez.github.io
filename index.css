@@ -1,0 +1,82 @@
+body
+{
+    font-family: Arial , sans-serif;
+}
+
+ul
+{
+    font-size: 28px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
+li
+{
+    float: left;
+}
+
+li.email
+{
+    float: right;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a.emailButton
+{
+    background-color: orange;
+}
+
+li a:hover
+{
+    background-color: gray;
+}
+
+li a.emailButton:hover
+{
+    background-color: darksalmon;
+}
+
+section
+{
+    font-size: 50px;
+    text-align: center;
+    margin: 1em;
+
+}
+
+section#Home
+{
+    border-width: 3px;
+    border: solid black;
+}
+
+p
+{
+    text-align: left;
+    padding: 30px;
+    margin: 0;
+}
+
+section#About
+{
+    box-shadow: 10px 5px 5px gray;
+}
+
+section#About p
+{
+    font-size: 40px;
+}
